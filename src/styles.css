@@ -53,18 +53,12 @@ h3 {
 
 @media (max-width: 900px) {
   .grid-challenge-1 {
-    display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
   }
   .grid-challenge-2 {
-    grid-gap: 10px;
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .grid-challenge-3 {
-    display: grid;
-    grid-gap: 10px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr 1fr);
   }
